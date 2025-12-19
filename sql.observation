@@ -1,0 +1,11 @@
+O banco de dados codeduck foi construído com:
+
+- PKs AUTO_INCREMENT para organização e escalabilidade
+- Campo de auditoria created_at com TIMESTAMP registra data de criação do utilizador
+- Email com UNIQUE para evitar duplicações
+- Senhas preparadas para hashes (VARCHAR 255)
+- Charset UTF8MB4 para suporte total de caracteres
+- ON DELETE CASCADE Se um user for apagado, apaga também os seus logins, sites, contratos.
+Evita dados órfãos e inconsistência
+- Relações consistentes entre Users, Login, Sites, Contratos e Métodos de Pagamento
+-  ON UPDATE CASCADE Se o ID mudar (raro, mas possível), atualiza tudo automaticamente.
