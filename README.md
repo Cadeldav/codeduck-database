@@ -42,8 +42,8 @@ O ficheiro `schema.sql` contém:
 ---
 
 ## 🎓 colegas de trabalho 
-**Rodrigo vaz
-**Tiago rodriges
+**Rodrigo vaz**
+**Tiago rodriges**
 **David (Cadeldav)**  
 
 ---
